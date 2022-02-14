@@ -1,3 +1,5 @@
+
+
 # to add two numbers
 num1 = 1
 num2 = 2
@@ -9,3 +11,4 @@ num1 = input(" The first num is: ")
 num2 = input(" The second num is: ")
 multiplication = int(num1) * int(num2)
 print("The multiplication of {0} and {1} is {2}" .format(num1 ,num2 ,multiplication))
+
