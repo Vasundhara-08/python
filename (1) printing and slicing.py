@@ -27,3 +27,12 @@ print(str[3:7])   # starts from index 0 prints index 3 to 6 bcz 7 is excluded
 print(str[3:])    # prints from 3rd index to further.....
 print(str[:7])    # prints before index 7
 print(str[::2])   # given 2 after two semicolon skips one character
+
+#negative or reverse string slicing
+str="MY_COLLEGE_IS_IN_CHANDIGARH"
+#    0123456789.......  <<-(these are the index)
+print(str[-4:])       #prints from the end that is "GARH"
+print(str[-8:-1])     #prints A to R ANDIGAR bcz -1 index is excluded
+print(str[::-1])      #it reverse the string
+print(str[::-2])      #first it reverse than it leaves one space 
+print(str[-16:-8:-1]) #
